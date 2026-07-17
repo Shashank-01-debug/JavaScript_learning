@@ -33,8 +33,9 @@ console.log(typeof userId);
 let marks =[78,88,79,66];
 console.log(marks);
 console.log(typeof marks);
-
+console.log("**************************************************************");
 let userData={name:'Katrina'};
 console.log(userData);
 console.log(userData.name);
 console.log(typeof userData);
+
