@@ -6,3 +6,4 @@ console.log(username || "shashank");
 
 console.log(username ?? 'shashank')
 
+
