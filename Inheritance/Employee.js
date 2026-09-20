@@ -1,9 +1,20 @@
 class Employee{
-name;
+    name;
     age;
     designation;
     salary;
     project;
+    //! i want store the company name inside property
+    static companyName='EPAM';
+
+   static getCompanyName(){
+        return this.companyName; // ? here, this.companyName refers to class Employee.
+    }
+
+    static m2(){
+        console.log('Hi from Employeee');
+        
+    }
 
     constructor(name,age, designation, salary,project){
 
