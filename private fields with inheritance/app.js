@@ -1,4 +1,6 @@
-import { Tester } from "./Tester.js";
+import { Intern } from "./Intern.js";
 
-const t1 = new Tester('Poonam',500,'Playwright');
-t1.getInfo();
+const intern = new Intern('suraj','3000','Playwright','IIT Bombay')
+intern.m1() //Employee class
+intern.m2(); // Tester class
+intern.m3(); // intern class

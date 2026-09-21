@@ -23,6 +23,10 @@ class Employee{
         this.#salary=salary;
     }
 
+    m1(){
+        console.log('M1 Method from the Employee class i.e. Grand Parent Class...');
+    }
+
 
 }
 

@@ -14,6 +14,11 @@ class Tester extends Employee{
         console.log('Salary:',this.salary); 
         console.log('Tools:',this.tools);    
     }
+
+m2(){
+        console.log('M1 Method from the Tester i.e. Parent Class...');
+    }
+
 }
 
 export{
