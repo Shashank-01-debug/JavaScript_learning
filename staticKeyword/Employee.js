@@ -24,8 +24,6 @@ static{
 }
 
 
-
-
   static {
     // !job of static block is to initialize the static variable.
         console.log('Initialising the empId........................');
